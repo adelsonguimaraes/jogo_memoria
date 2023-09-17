@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    height: 100vh;
+    background-color: rgb(39, 38, 37);
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.tabuleiro{
+    width: 800px;
+    height: 600px;
+    background-image: url(https://img.freepik.com/vetores-premium/fundo-de-madeira-realista_23-2149209278.jpg);
+}
+.cartas{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.cartas > li {
+    height: 210px;
+    width: 150px;
+    margin: 30px;
+    background-size: contain;
+    background-image: url(https://worldxm.net/worldxm.net/wp-content/uploads/2018/10/blue-copag-back-310-web.png);
+}
